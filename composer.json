@@ -1,0 +1,15 @@
+{
+    "name": "odusegun/ai_chat",
+    "authors": [
+        {
+            "name": "Odusegun",
+            "email": "odusanyasegun.macyhung@gmail.com"
+        }
+    ],
+    "require": {
+        "openai/openai": "*",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

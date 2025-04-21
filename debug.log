@@ -1,0 +1,617 @@
+[2024-09-06 11:36:18] Received raw data: {"action":"getStory","storyType":"a love story","language":"en"}
+[2024-09-06 11:36:18] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => a love story
+    [language] => en
+)
+
+[2024-09-06 11:36:18] Action: getStory
+[2024-09-06 11:36:18] Language: en
+[2024-09-06 11:36:18] Generating story for type: a love story
+[2024-09-06 11:44:25] Received raw data: {"action":"getStory","storyType":"just love","language":"en"}
+[2024-09-06 11:44:25] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => just love
+    [language] => en
+)
+
+[2024-09-06 11:44:25] Action: getStory
+[2024-09-06 11:44:25] Language: en
+[2024-09-06 11:44:25] Generating story for type: just love
+[2024-09-06 11:44:27] Error in getStory: Client error: `POST https://openrouter.ai/api/v1/chat` resulted in a `405 Method Not Allowed` response
+[2024-09-06 11:45:58] Received raw data: {"action":"getStory","storyType":"human","language":"en"}
+[2024-09-06 11:45:58] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => human
+    [language] => en
+)
+
+[2024-09-06 11:45:58] Action: getStory
+[2024-09-06 11:45:58] Language: en
+[2024-09-06 11:45:58] Generating story for type: human
+[2024-09-06 11:45:59] Error in getStory: Client error: `POST https://openrouter.ai/api/v1/chat` resulted in a `405 Method Not Allowed` response
+[2024-09-06 11:52:09] Received raw data: {"action":"getStory","storyType":"love story","language":"en"}
+[2024-09-06 11:52:09] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => love story
+    [language] => en
+)
+
+[2024-09-06 11:52:09] Action: getStory
+[2024-09-06 11:52:09] Language: en
+[2024-09-06 11:52:09] Generating story for type: love story
+[2024-09-06 11:52:10] Error in getStory: Client error: `POST https://openrouter.ai/api/v1/chat/completions` resulted in a `402 Payment Required` response:
+{"error":{"message":"You are either out of credits, or requesting a resource that requires owning least a few. Please vi (truncated...)
+
+[2024-09-06 11:54:49] Received raw data: {"action":"getStory","storyType":"happy ending","language":"en"}
+[2024-09-06 11:54:49] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => happy ending
+    [language] => en
+)
+
+[2024-09-06 11:54:49] Action: getStory
+[2024-09-06 11:54:49] Language: en
+[2024-09-06 11:54:49] Generating story for type: happy ending
+[2024-09-06 11:54:50] Error in getStory: Client error: `POST https://openrouter.ai/api/v1/chat/completions` resulted in a `402 Payment Required` response:
+{"error":{"message":"You are either out of credits, or requesting a resource that requires owning least a few. Please vi (truncated...)
+
+[2024-09-06 12:07:43] Received raw data: {"action":"getStory","storyType":"love","language":"zh"}
+[2024-09-06 12:07:43] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => love
+    [language] => zh
+)
+
+[2024-09-06 12:07:43] Action: getStory
+[2024-09-06 12:07:43] Language: zh
+[2024-09-06 12:07:43] Generating story for type: love
+[2024-09-06 12:07:45] Error in getStory: Client error: `POST https://openrouter.ai/api/v1/chat/completions` resulted in a `402 Payment Required` response:
+{"error":{"message":"You are either out of credits, or requesting a resource that requires owning least a few. Please vi (truncated...)
+
+[2024-09-06 13:06:14] Received raw data: {"action":"getStory","storyType":"happy ending","language":"en"}
+[2024-09-06 13:06:14] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => happy ending
+    [language] => en
+)
+
+[2024-09-06 13:06:14] Action: getStory
+[2024-09-06 13:06:14] Language: en
+[2024-09-06 13:06:14] Generating story for type: happy ending
+[2024-09-06 13:07:15] Received raw data: {"action":"answerQuestion","question":"how old was she?","story":"Once upon a time, in a small village nestled in the mountains, there lived a young girl named Lily. She was known for her kindness and her love for animals. One day, while exploring the forest near her home, she stumbled upon a wounded deer. Without a second thought, Lily carefully nursed the deer back to health, tending to its wounds and feeding it with the best herbs she could find.\n\nAs days turned into weeks, the deer slowly regained its strength and soon became a loyal companion to Lily. They would spend their days wandering through the forest, playing in the meadows, and watching the sunset together. The bond between them was unbreakable, and Lily felt a profound sense of happiness and fulfillment in the deer's presence.\n\nHowever, one day, hunters from a neighboring village came to the forest, seeking to capture rare animals for their own gain. When they spotted the deer with Lily, they immediately set out to capture it. Lily, filled with fear for her dear friend, bravely stood in front of the hunters, begging them to spare the deer and take her instead.\n\nMoved by Lily's selfless sacrifice and pure heart, the hunters were touched. They promised to leave the deer unharmed and, in return, gifted Lily a beautiful, magical flower that would bloom eternally as a symbol of her kindness and courage.\n\nFrom that day on, Lily and the deer lived peacefully in the forest, surrounded by the blooming flowers and the whispers of the wind. Their bond grew even stronger, and Lily knew deep in her heart that she had found her true purpose in life – to protect and care for all living beings.\n\nAnd so, with a happy ending, Lily and the deer continued their adventures, spreading love and compassion wherever they went, forever grateful for the magical connection that had brought them together.","language":"zh"}
+[2024-09-06 13:07:15] Decoded data: Array
+(
+    [action] => answerQuestion
+    [question] => how old was she?
+    [story] => Once upon a time, in a small village nestled in the mountains, there lived a young girl named Lily. She was known for her kindness and her love for animals. One day, while exploring the forest near her home, she stumbled upon a wounded deer. Without a second thought, Lily carefully nursed the deer back to health, tending to its wounds and feeding it with the best herbs she could find.
+
+As days turned into weeks, the deer slowly regained its strength and soon became a loyal companion to Lily. They would spend their days wandering through the forest, playing in the meadows, and watching the sunset together. The bond between them was unbreakable, and Lily felt a profound sense of happiness and fulfillment in the deer's presence.
+
+However, one day, hunters from a neighboring village came to the forest, seeking to capture rare animals for their own gain. When they spotted the deer with Lily, they immediately set out to capture it. Lily, filled with fear for her dear friend, bravely stood in front of the hunters, begging them to spare the deer and take her instead.
+
+Moved by Lily's selfless sacrifice and pure heart, the hunters were touched. They promised to leave the deer unharmed and, in return, gifted Lily a beautiful, magical flower that would bloom eternally as a symbol of her kindness and courage.
+
+From that day on, Lily and the deer lived peacefully in the forest, surrounded by the blooming flowers and the whispers of the wind. Their bond grew even stronger, and Lily knew deep in her heart that she had found her true purpose in life – to protect and care for all living beings.
+
+And so, with a happy ending, Lily and the deer continued their adventures, spreading love and compassion wherever they went, forever grateful for the magical connection that had brought them together.
+    [language] => zh
+)
+
+[2024-09-06 13:07:15] Action: answerQuestion
+[2024-09-06 13:07:15] Language: zh
+[2024-09-06 16:45:33] Received raw data: {"action":"getStory","storyType":"love story","language":"en"}
+[2024-09-06 16:45:33] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => love story
+    [language] => en
+)
+
+[2024-09-06 16:45:33] Action: getStory
+[2024-09-06 16:45:33] Language: en
+[2024-09-06 16:45:33] Generating story for type: love story
+[2024-09-06 16:45:50] Error in getStory: Server error: `POST https://openrouter.ai/api/v1/chat/completions` resulted in a `504 Gateway Time-out` response:
+error code: 504
+
+[2024-09-06 16:47:34] Received raw data: {"action":"getStory","storyType":"happy ending","language":"en"}
+[2024-09-06 16:47:34] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => happy ending
+    [language] => en
+)
+
+[2024-09-06 16:47:34] Action: getStory
+[2024-09-06 16:47:34] Language: en
+[2024-09-06 16:47:34] Generating story for type: happy ending
+[2024-09-06 16:47:51] Error in getStory: Server error: `POST https://openrouter.ai/api/v1/chat/completions` resulted in a `504 Gateway Time-out` response:
+error code: 504
+
+[2024-09-06 16:49:06] Received raw data: {"action":"getStory","storyType":"happy ending","language":"en"}
+[2024-09-06 16:49:07] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => happy ending
+    [language] => en
+)
+
+[2024-09-06 16:49:07] Action: getStory
+[2024-09-06 16:49:07] Language: en
+[2024-09-06 16:49:07] Generating story for type: happy ending
+[2024-09-06 16:49:23] Error in getStory: Server error: `POST https://openrouter.ai/api/v1/chat/completions` resulted in a `504 Gateway Time-out` response:
+error code: 504
+
+[2024-09-06 17:03:13] Received raw data: {"action":"getStory","storyType":"happy ending","language":"en"}
+[2024-09-06 17:03:13] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => happy ending
+    [language] => en
+)
+
+[2024-09-06 17:03:13] Action: getStory
+[2024-09-06 17:03:13] Language: en
+[2024-09-06 17:21:36] Received raw data: {"action":"getStory","storyType":"happy ending","language":"en"}
+[2024-09-06 17:21:36] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => happy ending
+    [language] => en
+)
+
+[2024-09-06 17:21:36] Action: getStory
+[2024-09-06 17:21:36] Language: en
+[2024-09-06 17:21:56] Received raw data: {"action":"answerQuestion","question":"what is her name?","story":"Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.\n\nOne day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.\n\nDetermined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.\n\nAs the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.\n\nFrom that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.\n\nAnd so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.","language":"en"}
+[2024-09-06 17:21:56] Decoded data: Array
+(
+    [action] => answerQuestion
+    [question] => what is her name?
+    [story] => Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.
+
+One day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.
+
+Determined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.
+
+As the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.
+
+From that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.
+
+And so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.
+    [language] => en
+)
+
+[2024-09-06 17:21:56] Action: answerQuestion
+[2024-09-06 17:21:56] Language: en
+[2024-09-06 17:22:49] Received raw data: {"action":"answerQuestion","question":"tell the history of american civil civil war","story":"Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.\n\nOne day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.\n\nDetermined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.\n\nAs the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.\n\nFrom that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.\n\nAnd so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.","language":"en"}
+[2024-09-06 17:22:49] Decoded data: Array
+(
+    [action] => answerQuestion
+    [question] => tell the history of american civil civil war
+    [story] => Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.
+
+One day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.
+
+Determined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.
+
+As the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.
+
+From that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.
+
+And so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.
+    [language] => en
+)
+
+[2024-09-06 17:22:49] Action: answerQuestion
+[2024-09-06 17:22:49] Language: en
+[2024-09-06 17:24:17] Received raw data: {"action":"generateQuestion","story":"Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.\n\nOne day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.\n\nDetermined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.\n\nAs the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.\n\nFrom that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.\n\nAnd so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.","language":"en"}
+[2024-09-06 17:24:17] Decoded data: Array
+(
+    [action] => generateQuestion
+    [story] => Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.
+
+One day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.
+
+Determined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.
+
+As the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.
+
+From that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.
+
+And so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.
+    [language] => en
+)
+
+[2024-09-06 17:24:17] Action: generateQuestion
+[2024-09-06 17:24:17] Language: en
+[2024-09-06 17:24:44] Received raw data: {"action":"checkAnswer","answer":"she did something nice","story":"Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.\n\nOne day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.\n\nDetermined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.\n\nAs the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.\n\nFrom that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.\n\nAnd so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.","language":"en"}
+[2024-09-06 17:24:44] Decoded data: Array
+(
+    [action] => checkAnswer
+    [answer] => she did something nice
+    [story] => Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.
+
+One day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.
+
+Determined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.
+
+As the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.
+
+From that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.
+
+And so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.
+    [language] => en
+)
+
+[2024-09-06 17:24:44] Action: checkAnswer
+[2024-09-06 17:24:44] Language: en
+[2024-09-06 17:50:39] Received raw data: {"action":"answerQuestion","question":"tell me history of spaim","story":"Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.\n\nOne day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.\n\nDetermined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.\n\nAs the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.\n\nFrom that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.\n\nAnd so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.","language":"es"}
+[2024-09-06 17:50:39] Decoded data: Array
+(
+    [action] => answerQuestion
+    [question] => tell me history of spaim
+    [story] => Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.
+
+One day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.
+
+Determined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.
+
+As the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.
+
+From that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.
+
+And so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.
+    [language] => es
+)
+
+[2024-09-06 17:50:39] Action: answerQuestion
+[2024-09-06 17:50:39] Language: es
+[2024-09-06 17:52:24] Received raw data: {"action":"answerQuestion","question":"Cuéntame una linda historia","story":"Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.\n\nOne day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.\n\nDetermined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.\n\nAs the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.\n\nFrom that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.\n\nAnd so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.","language":"es"}
+[2024-09-06 17:52:24] Decoded data: Array
+(
+    [action] => answerQuestion
+    [question] => Cuéntame una linda historia
+    [story] => Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.
+
+One day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.
+
+Determined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.
+
+As the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.
+
+From that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.
+
+And so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.
+    [language] => es
+)
+
+[2024-09-06 17:52:24] Action: answerQuestion
+[2024-09-06 17:52:24] Language: es
+[2024-09-06 17:55:24] Received raw data: {"action":"answerQuestion","question":"tell me love story","story":"Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.\n\nOne day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.\n\nDetermined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.\n\nAs the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.\n\nFrom that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.\n\nAnd so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.","language":"es"}
+[2024-09-06 17:55:24] Decoded data: Array
+(
+    [action] => answerQuestion
+    [question] => tell me love story
+    [story] => Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.
+
+One day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.
+
+Determined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.
+
+As the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.
+
+From that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.
+
+And so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.
+    [language] => es
+)
+
+[2024-09-06 17:55:24] Action: answerQuestion
+[2024-09-06 17:55:24] Language: es
+[2024-09-06 18:02:08] Received raw data: {"action":"answerQuestion","question":"tell me history of football in french","story":"Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.\n\nOne day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.\n\nDetermined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.\n\nAs the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.\n\nFrom that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.\n\nAnd so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.","language":"es"}
+[2024-09-06 18:02:08] Decoded data: Array
+(
+    [action] => answerQuestion
+    [question] => tell me history of football in french
+    [story] => Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.
+
+One day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.
+
+Determined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.
+
+As the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.
+
+From that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.
+
+And so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.
+    [language] => es
+)
+
+[2024-09-06 18:02:08] Action: answerQuestion
+[2024-09-06 18:02:08] Language: es
+[2024-09-06 18:02:19] Connection Error: cURL error 28: Resolving timed out after 10004 milliseconds (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://openrouter.ai/api/v1/chat/completions
+[2024-09-06 18:02:45] Received raw data: {"action":"generateQuestion","story":"Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.\n\nOne day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.\n\nDetermined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.\n\nAs the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.\n\nFrom that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.\n\nAnd so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.","language":"es"}
+[2024-09-06 18:02:45] Decoded data: Array
+(
+    [action] => generateQuestion
+    [story] => Once upon a time in a small village nestled among rolling green hills, there lived a young girl named Lily. Lily was known throughout the village for her cheerful demeanor and kind heart. She spent her days tending to the garden that she had lovingly cultivated, surrounded by colorful flowers that seemed to bloom brighter in her presence.
+
+One day, as Lily was tending to her garden, she heard a faint cry coming from the nearby forest. Curiosity piqued, she followed the sound until she came upon a tiny injured bird lying on the forest floor. Without hesitation, Lily gently picked up the bird and cradled it in her hands, feeling its tiny heartbeat against her palm.
+
+Determined to help the bird, Lily brought it back to her cottage and cared for it with all the love and tenderness in her heart. She fed it nourishing seeds and kept it warm with a soft blanket, watching over it day and night. Slowly but surely, the bird began to regain its strength, its once dull eyes now bright with gratitude and trust.
+
+As the days passed, the bird grew stronger and stronger, until one morning, it flapped its wings and took flight, soaring into the clear blue sky with a joyful chirp. Lily watched in awe as the bird circled above her, a symbol of hope and resilience.
+
+From that day on, the bird visited Lily's garden every morning, singing a sweet melody that filled the air with joy and laughter. And as the village came to know the story of Lily and the bird, they too found comfort and inspiration in the tale of a kind-hearted girl who had brought happiness to a wounded soul.
+
+And so, in the small village among the rolling green hills, Lily's garden bloomed more beautifully than ever before, a testament to the power of love and compassion. And the sound of the bird's song echoed through the village, a reminder that every happy ending begins with a small act of kindness.
+    [language] => es
+)
+
+[2024-09-06 18:02:45] Action: generateQuestion
+[2024-09-06 18:02:45] Language: es
+[2024-09-12 19:23:20] Received raw data: {"action":"getStory","storyType":"a traditional spanish story","language":"es"}
+[2024-09-12 19:23:20] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => a traditional spanish story
+    [language] => es
+)
+
+[2024-09-12 19:23:20] Action: getStory
+[2024-09-12 19:23:20] Language: es
+[2024-09-12 19:23:31] Connection Error: cURL error 28: Failed to connect to openrouter.ai port 443 after 10017 ms: Timeout was reached (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://openrouter.ai/api/v1/chat/completions
+[2024-09-12 19:23:33] Received raw data: {"action":"getStory","storyType":"a traditional spanish story","language":"es"}
+[2024-09-12 19:23:33] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => a traditional spanish story
+    [language] => es
+)
+
+[2024-09-12 19:23:33] Action: getStory
+[2024-09-12 19:23:33] Language: es
+[2024-09-12 19:24:16] Received raw data: {"action":"generateQuestion","story":"Había una vez en un pequeño pueblo de España, una joven llamada Isabella. Isabella era conocida en todo el pueblo por su belleza y su amabilidad. Sin embargo, un malvado brujo envidioso de su belleza decidió lanzarle una maldición.\n\nLa maldición hacía que Isabella perdiera su voz, lo que la llenaba de tristeza y desesperación. La gente del pueblo intentó todo tipo de remedios para ayudarla, pero nada parecía funcionar.\n\nUn día, un apuesto caballero llamado Diego llegó al pueblo en busca de aventuras. Al enterarse de la terrible maldición que había caído sobre Isabella, decidió ayudarla. Diego se adentró en el bosque oscuro en busca del brujo malvado que había lanzado la maldición.\n\nDespués de una larga y peligrosa búsqueda, Diego finalmente encontró al brujo y logró convencerlo de levantar la maldición. El brujo, impresionado por la valentía y determinación de Diego, accedió a revertir el hechizo.\n\nIsabella recuperó su voz y el pueblo entero celebró su regreso. Estaba agradecida con Diego por salvarla y juntos vivieron felices para siempre. La historia de Isabella y Diego se convirtió en un cuento popular en toda España, recordando a todos la importancia de la valentía y la amistad en tiempos de dificultad.","language":"en"}
+[2024-09-12 19:24:16] Decoded data: Array
+(
+    [action] => generateQuestion
+    [story] => Había una vez en un pequeño pueblo de España, una joven llamada Isabella. Isabella era conocida en todo el pueblo por su belleza y su amabilidad. Sin embargo, un malvado brujo envidioso de su belleza decidió lanzarle una maldición.
+
+La maldición hacía que Isabella perdiera su voz, lo que la llenaba de tristeza y desesperación. La gente del pueblo intentó todo tipo de remedios para ayudarla, pero nada parecía funcionar.
+
+Un día, un apuesto caballero llamado Diego llegó al pueblo en busca de aventuras. Al enterarse de la terrible maldición que había caído sobre Isabella, decidió ayudarla. Diego se adentró en el bosque oscuro en busca del brujo malvado que había lanzado la maldición.
+
+Después de una larga y peligrosa búsqueda, Diego finalmente encontró al brujo y logró convencerlo de levantar la maldición. El brujo, impresionado por la valentía y determinación de Diego, accedió a revertir el hechizo.
+
+Isabella recuperó su voz y el pueblo entero celebró su regreso. Estaba agradecida con Diego por salvarla y juntos vivieron felices para siempre. La historia de Isabella y Diego se convirtió en un cuento popular en toda España, recordando a todos la importancia de la valentía y la amistad en tiempos de dificultad.
+    [language] => en
+)
+
+[2024-09-12 19:24:16] Action: generateQuestion
+[2024-09-12 19:24:16] Language: en
+[2024-09-12 19:24:26] Connection Error: cURL error 28: Failed to connect to openrouter.ai port 443 after 10006 ms: Timeout was reached (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://openrouter.ai/api/v1/chat/completions
+[2024-09-12 19:24:53] Received raw data: {"action":"checkAnswer","answer":"ask a question","story":"Había una vez en un pequeño pueblo de España, una joven llamada Isabella. Isabella era conocida en todo el pueblo por su belleza y su amabilidad. Sin embargo, un malvado brujo envidioso de su belleza decidió lanzarle una maldición.\n\nLa maldición hacía que Isabella perdiera su voz, lo que la llenaba de tristeza y desesperación. La gente del pueblo intentó todo tipo de remedios para ayudarla, pero nada parecía funcionar.\n\nUn día, un apuesto caballero llamado Diego llegó al pueblo en busca de aventuras. Al enterarse de la terrible maldición que había caído sobre Isabella, decidió ayudarla. Diego se adentró en el bosque oscuro en busca del brujo malvado que había lanzado la maldición.\n\nDespués de una larga y peligrosa búsqueda, Diego finalmente encontró al brujo y logró convencerlo de levantar la maldición. El brujo, impresionado por la valentía y determinación de Diego, accedió a revertir el hechizo.\n\nIsabella recuperó su voz y el pueblo entero celebró su regreso. Estaba agradecida con Diego por salvarla y juntos vivieron felices para siempre. La historia de Isabella y Diego se convirtió en un cuento popular en toda España, recordando a todos la importancia de la valentía y la amistad en tiempos de dificultad.","language":"es"}
+[2024-09-12 19:24:53] Decoded data: Array
+(
+    [action] => checkAnswer
+    [answer] => ask a question
+    [story] => Había una vez en un pequeño pueblo de España, una joven llamada Isabella. Isabella era conocida en todo el pueblo por su belleza y su amabilidad. Sin embargo, un malvado brujo envidioso de su belleza decidió lanzarle una maldición.
+
+La maldición hacía que Isabella perdiera su voz, lo que la llenaba de tristeza y desesperación. La gente del pueblo intentó todo tipo de remedios para ayudarla, pero nada parecía funcionar.
+
+Un día, un apuesto caballero llamado Diego llegó al pueblo en busca de aventuras. Al enterarse de la terrible maldición que había caído sobre Isabella, decidió ayudarla. Diego se adentró en el bosque oscuro en busca del brujo malvado que había lanzado la maldición.
+
+Después de una larga y peligrosa búsqueda, Diego finalmente encontró al brujo y logró convencerlo de levantar la maldición. El brujo, impresionado por la valentía y determinación de Diego, accedió a revertir el hechizo.
+
+Isabella recuperó su voz y el pueblo entero celebró su regreso. Estaba agradecida con Diego por salvarla y juntos vivieron felices para siempre. La historia de Isabella y Diego se convirtió en un cuento popular en toda España, recordando a todos la importancia de la valentía y la amistad en tiempos de dificultad.
+    [language] => es
+)
+
+[2024-09-12 19:24:53] Action: checkAnswer
+[2024-09-12 19:24:53] Language: es
+[2024-09-12 19:25:03] Connection Error: cURL error 28: Failed to connect to openrouter.ai port 443 after 10012 ms: Timeout was reached (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://openrouter.ai/api/v1/chat/completions
+[2024-09-12 19:45:36] Received raw data: {"action":"getStory","storyType":"I would like a story about the japanese motor companies","language":"en"}
+[2024-09-12 19:45:36] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => I would like a story about the japanese motor companies
+    [language] => en
+)
+
+[2024-09-12 19:45:36] Action: getStory
+[2024-09-12 19:45:36] Language: en
+[2024-09-12 19:45:55] Received raw data: {"action":"generateQuestion","story":"Once upon a time, in the land of Nippon, where innovation and precision were highly valued, there resided three legendary motor companies: Honda, Toyota, and Nissan. These companies were known far and wide for their impressive engineering, sleek designs, and commitment to quality.\n\nThe story begins with Honda, a company founded by a visionary named Soichiro Honda. He had a dream to create affordable and reliable motorcycles for the people of Japan. With his determination and passion, Honda soon expanded into making cars, and their vehicles became synonymous with excellence and efficiency.\n\nOn the other side of the land, Toyota, led by the Toyoda family, had been perfecting their craft of manufacturing automobiles for generations. They were renowned for their innovation and commitment to sustainability, always striving to create vehicles that were not only powerful but also environmentally friendly.\n\nAnd then there was Nissan, a company with a rich history and a reputation for pushing the boundaries of technology. Led by daring entrepreneurs, Nissan was known for its cutting-edge designs and groundbreaking advancements in the automotive industry.\n\nAs time passed, these three companies continued to evolve and grow, constantly pushing the limits of what was possible in the world of motor vehicles. They were in constant competition with each other, driving each to innovate and improve at a rapid pace.\n\nBut despite their rivalry, Honda, Toyota, and Nissan also shared a deep respect for one another. They understood that each company played a vital role in shaping the automotive landscape of Japan and beyond. And so, they continued to inspire and challenge one another, driving the industry forward in a spirit of friendly competition.\n\nAnd so, the legacy of these legendary Japanese motor companies lived on, their names revered by car enthusiasts and drivers around the world. Each vehicle they produced was a testament to the skill, dedication, and ingenuity of the people who worked tirelessly to bring them to life. And their story was a testament to the power of innovation and the endless possibilities that lay ahead in the world of transportation.","language":"en"}
+[2024-09-12 19:45:55] Decoded data: Array
+(
+    [action] => generateQuestion
+    [story] => Once upon a time, in the land of Nippon, where innovation and precision were highly valued, there resided three legendary motor companies: Honda, Toyota, and Nissan. These companies were known far and wide for their impressive engineering, sleek designs, and commitment to quality.
+
+The story begins with Honda, a company founded by a visionary named Soichiro Honda. He had a dream to create affordable and reliable motorcycles for the people of Japan. With his determination and passion, Honda soon expanded into making cars, and their vehicles became synonymous with excellence and efficiency.
+
+On the other side of the land, Toyota, led by the Toyoda family, had been perfecting their craft of manufacturing automobiles for generations. They were renowned for their innovation and commitment to sustainability, always striving to create vehicles that were not only powerful but also environmentally friendly.
+
+And then there was Nissan, a company with a rich history and a reputation for pushing the boundaries of technology. Led by daring entrepreneurs, Nissan was known for its cutting-edge designs and groundbreaking advancements in the automotive industry.
+
+As time passed, these three companies continued to evolve and grow, constantly pushing the limits of what was possible in the world of motor vehicles. They were in constant competition with each other, driving each to innovate and improve at a rapid pace.
+
+But despite their rivalry, Honda, Toyota, and Nissan also shared a deep respect for one another. They understood that each company played a vital role in shaping the automotive landscape of Japan and beyond. And so, they continued to inspire and challenge one another, driving the industry forward in a spirit of friendly competition.
+
+And so, the legacy of these legendary Japanese motor companies lived on, their names revered by car enthusiasts and drivers around the world. Each vehicle they produced was a testament to the skill, dedication, and ingenuity of the people who worked tirelessly to bring them to life. And their story was a testament to the power of innovation and the endless possibilities that lay ahead in the world of transportation.
+    [language] => en
+)
+
+[2024-09-12 19:45:55] Action: generateQuestion
+[2024-09-12 19:45:55] Language: en
+[2024-09-12 19:53:22] Received raw data: {"action":"getStory","storyType":"i would like a story about the weather","language":"en"}
+[2024-09-12 19:53:22] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => i would like a story about the weather
+    [language] => en
+)
+
+[2024-09-12 19:53:22] Action: getStory
+[2024-09-12 19:53:22] Language: en
+[2024-09-12 19:54:02] Received raw data: {"action":"generateQuestion","story":"In the quaint town of En, nestled between the rolling green hills and the shimmering ocean, the weather was more than just a backdrop; it was a character in itself. The townspeople often spoke of the weather in hushed tones, as if it held a mysterious power over their lives.\n\nOne particular day, a young girl named Elara woke up to a thick blanket of fog enveloping the town. The fog was so dense that she could barely see the trees in her backyard. She shivered as she stepped outside, the cool mist sending a chill down her spine.\n\nAs Elara made her way to the town square, she noticed that the atmosphere in En was different that day. The townspeople moved about with a sense of urgency, their faces etched with worry. Elara overheard snippets of conversation about the strange weather and its potential impact on their crops and livelihoods.\n\nAs the day wore on, the fog showed no signs of lifting. The air was heavy with moisture, and the town seemed to be under a spell. Elara couldn't shake the feeling that something was about to happen.\n\nJust as dusk began to settle over En, the fog suddenly lifted, revealing a sky ablaze with colors. The townspeople emerged from their homes, their faces aglow with wonder. A rainbow arched across the horizon, its vibrant hues painting a stunning picture against the backdrop of the fading fog.\n\nElara and the other townspeople stood in awe, their worries momentarily forgotten as they basked in the beauty of the moment. The weather in En had indeed been unpredictable, but it had also brought with it a moment of unexpected magic that reminded the townspeople of the power and majesty of nature.\n\nFrom that day on, the townspeople of En spoke of the weather with newfound reverence, knowing that even in its most unpredictable moments, it held the potential to surprise and delight them in ways they could never imagine. And Elara, with a smile on her face, knew that she would always treasure the memory of that foggy day that turned into a moment of pure magic.","language":"en"}
+[2024-09-12 19:54:02] Decoded data: Array
+(
+    [action] => generateQuestion
+    [story] => In the quaint town of En, nestled between the rolling green hills and the shimmering ocean, the weather was more than just a backdrop; it was a character in itself. The townspeople often spoke of the weather in hushed tones, as if it held a mysterious power over their lives.
+
+One particular day, a young girl named Elara woke up to a thick blanket of fog enveloping the town. The fog was so dense that she could barely see the trees in her backyard. She shivered as she stepped outside, the cool mist sending a chill down her spine.
+
+As Elara made her way to the town square, she noticed that the atmosphere in En was different that day. The townspeople moved about with a sense of urgency, their faces etched with worry. Elara overheard snippets of conversation about the strange weather and its potential impact on their crops and livelihoods.
+
+As the day wore on, the fog showed no signs of lifting. The air was heavy with moisture, and the town seemed to be under a spell. Elara couldn't shake the feeling that something was about to happen.
+
+Just as dusk began to settle over En, the fog suddenly lifted, revealing a sky ablaze with colors. The townspeople emerged from their homes, their faces aglow with wonder. A rainbow arched across the horizon, its vibrant hues painting a stunning picture against the backdrop of the fading fog.
+
+Elara and the other townspeople stood in awe, their worries momentarily forgotten as they basked in the beauty of the moment. The weather in En had indeed been unpredictable, but it had also brought with it a moment of unexpected magic that reminded the townspeople of the power and majesty of nature.
+
+From that day on, the townspeople of En spoke of the weather with newfound reverence, knowing that even in its most unpredictable moments, it held the potential to surprise and delight them in ways they could never imagine. And Elara, with a smile on her face, knew that she would always treasure the memory of that foggy day that turned into a moment of pure magic.
+    [language] => en
+)
+
+[2024-09-12 19:54:02] Action: generateQuestion
+[2024-09-12 19:54:02] Language: en
+[2024-09-12 19:55:23] Received raw data: {"action":"checkAnswer","answer":"it was not friendly","story":"In the quaint town of En, nestled between the rolling green hills and the shimmering ocean, the weather was more than just a backdrop; it was a character in itself. The townspeople often spoke of the weather in hushed tones, as if it held a mysterious power over their lives.\n\nOne particular day, a young girl named Elara woke up to a thick blanket of fog enveloping the town. The fog was so dense that she could barely see the trees in her backyard. She shivered as she stepped outside, the cool mist sending a chill down her spine.\n\nAs Elara made her way to the town square, she noticed that the atmosphere in En was different that day. The townspeople moved about with a sense of urgency, their faces etched with worry. Elara overheard snippets of conversation about the strange weather and its potential impact on their crops and livelihoods.\n\nAs the day wore on, the fog showed no signs of lifting. The air was heavy with moisture, and the town seemed to be under a spell. Elara couldn't shake the feeling that something was about to happen.\n\nJust as dusk began to settle over En, the fog suddenly lifted, revealing a sky ablaze with colors. The townspeople emerged from their homes, their faces aglow with wonder. A rainbow arched across the horizon, its vibrant hues painting a stunning picture against the backdrop of the fading fog.\n\nElara and the other townspeople stood in awe, their worries momentarily forgotten as they basked in the beauty of the moment. The weather in En had indeed been unpredictable, but it had also brought with it a moment of unexpected magic that reminded the townspeople of the power and majesty of nature.\n\nFrom that day on, the townspeople of En spoke of the weather with newfound reverence, knowing that even in its most unpredictable moments, it held the potential to surprise and delight them in ways they could never imagine. And Elara, with a smile on her face, knew that she would always treasure the memory of that foggy day that turned into a moment of pure magic.","language":"en"}
+[2024-09-12 19:55:23] Decoded data: Array
+(
+    [action] => checkAnswer
+    [answer] => it was not friendly
+    [story] => In the quaint town of En, nestled between the rolling green hills and the shimmering ocean, the weather was more than just a backdrop; it was a character in itself. The townspeople often spoke of the weather in hushed tones, as if it held a mysterious power over their lives.
+
+One particular day, a young girl named Elara woke up to a thick blanket of fog enveloping the town. The fog was so dense that she could barely see the trees in her backyard. She shivered as she stepped outside, the cool mist sending a chill down her spine.
+
+As Elara made her way to the town square, she noticed that the atmosphere in En was different that day. The townspeople moved about with a sense of urgency, their faces etched with worry. Elara overheard snippets of conversation about the strange weather and its potential impact on their crops and livelihoods.
+
+As the day wore on, the fog showed no signs of lifting. The air was heavy with moisture, and the town seemed to be under a spell. Elara couldn't shake the feeling that something was about to happen.
+
+Just as dusk began to settle over En, the fog suddenly lifted, revealing a sky ablaze with colors. The townspeople emerged from their homes, their faces aglow with wonder. A rainbow arched across the horizon, its vibrant hues painting a stunning picture against the backdrop of the fading fog.
+
+Elara and the other townspeople stood in awe, their worries momentarily forgotten as they basked in the beauty of the moment. The weather in En had indeed been unpredictable, but it had also brought with it a moment of unexpected magic that reminded the townspeople of the power and majesty of nature.
+
+From that day on, the townspeople of En spoke of the weather with newfound reverence, knowing that even in its most unpredictable moments, it held the potential to surprise and delight them in ways they could never imagine. And Elara, with a smile on her face, knew that she would always treasure the memory of that foggy day that turned into a moment of pure magic.
+    [language] => en
+)
+
+[2024-09-12 19:55:23] Action: checkAnswer
+[2024-09-12 19:55:23] Language: en
+[2024-09-12 20:24:00] Received raw data: {"action":"getStory","storyType":"I want the story of Jesus birth in the Bible","language":"en"}
+[2024-09-12 20:24:00] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => I want the story of Jesus birth in the Bible
+    [language] => en
+)
+
+[2024-09-12 20:24:00] Action: getStory
+[2024-09-12 20:24:00] Language: en
+[2024-09-12 20:27:15] Received raw data: {"action":"getStory","storyType":"I want a story of the wise men in the bible","language":"en"}
+[2024-09-12 20:27:15] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => I want a story of the wise men in the bible
+    [language] => en
+)
+
+[2024-09-12 20:27:15] Action: getStory
+[2024-09-12 20:27:15] Language: en
+[2024-09-17 15:28:59] Received raw data: {"action":"getStory","storyType":"a bible story","language":"en"}
+[2024-09-17 15:28:59] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => a bible story
+    [language] => en
+)
+
+[2024-09-17 15:28:59] Action: getStory
+[2024-09-17 15:28:59] Language: en
+[2024-09-17 15:30:32] Received raw data: {"action":"getStory","storyType":"story of jesus","language":"en"}
+[2024-09-17 15:30:32] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => story of jesus
+    [language] => en
+)
+
+[2024-09-17 15:30:32] Action: getStory
+[2024-09-17 15:30:32] Language: en
+[2024-09-24 13:44:46] Received raw data: {"action":"getStory","storyType":"i want to hear an action story","language":"en"}
+[2024-09-24 13:44:46] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => i want to hear an action story
+    [language] => en
+)
+
+[2024-09-24 13:44:46] Action: getStory
+[2024-09-24 13:44:46] Language: en
+[2024-09-24 13:45:22] Received raw data: {"action":"answerQuestion","question":"who was the main character in the story?","story":"Once there lived a young boy named Alex who was obsessed with action stories. He would spend hours reading about daring adventures, heroic deeds, and epic battles. His room was filled with books, posters, and magazines that showcased his favorite action heroes.\n\nOne day, as Alex was reading yet another thrilling story of a brave warrior fighting against insurmountable odds, he heard a knock on his door. It was his eccentric neighbor, Mr. Jenkins, a retired war veteran who had traveled the world and fought in countless battles.\n\nMr. Jenkins knew of Alex's passion for action stories and decided to share a tale from his own life. He recounted the time he faced a group of mercenaries who threatened to destroy his village. With courage and determination, he led a small group of villagers in a daring rescue mission to save their loved ones.\n\nAs Mr. Jenkins spoke, Alex's eyes widened with excitement, and his heart raced with adrenaline. He was captivated by the thrilling action, the danger, and the bravery displayed in the old man's story. Inspired by Mr. Jenkins' tale, Alex realized that true stories of courage and heroism were just as thrilling as the fictional ones he loved so much.\n\nFrom that day on, Alex spent hours listening to Mr. Jenkins' stories of adventure, bravery, and action. He learned that sometimes the greatest heroes were not found in books or movies but in the everyday people who faced challenges with resilience and determination.\n\nAs he grew older, Alex followed in Mr. Jenkins' footsteps, becoming a true action hero in his own right. He traveled the world, fought against injustice, and inspired others with his courage and bravery. And through it all, he never forgot the lessons he learned from the stories that shaped his childhood – that true action stories were not just entertainment, but a reflection of the indomitable spirit of the human soul.","language":"en"}
+[2024-09-24 13:45:22] Decoded data: Array
+(
+    [action] => answerQuestion
+    [question] => who was the main character in the story?
+    [story] => Once there lived a young boy named Alex who was obsessed with action stories. He would spend hours reading about daring adventures, heroic deeds, and epic battles. His room was filled with books, posters, and magazines that showcased his favorite action heroes.
+
+One day, as Alex was reading yet another thrilling story of a brave warrior fighting against insurmountable odds, he heard a knock on his door. It was his eccentric neighbor, Mr. Jenkins, a retired war veteran who had traveled the world and fought in countless battles.
+
+Mr. Jenkins knew of Alex's passion for action stories and decided to share a tale from his own life. He recounted the time he faced a group of mercenaries who threatened to destroy his village. With courage and determination, he led a small group of villagers in a daring rescue mission to save their loved ones.
+
+As Mr. Jenkins spoke, Alex's eyes widened with excitement, and his heart raced with adrenaline. He was captivated by the thrilling action, the danger, and the bravery displayed in the old man's story. Inspired by Mr. Jenkins' tale, Alex realized that true stories of courage and heroism were just as thrilling as the fictional ones he loved so much.
+
+From that day on, Alex spent hours listening to Mr. Jenkins' stories of adventure, bravery, and action. He learned that sometimes the greatest heroes were not found in books or movies but in the everyday people who faced challenges with resilience and determination.
+
+As he grew older, Alex followed in Mr. Jenkins' footsteps, becoming a true action hero in his own right. He traveled the world, fought against injustice, and inspired others with his courage and bravery. And through it all, he never forgot the lessons he learned from the stories that shaped his childhood – that true action stories were not just entertainment, but a reflection of the indomitable spirit of the human soul.
+    [language] => en
+)
+
+[2024-09-24 13:45:22] Action: answerQuestion
+[2024-09-24 13:45:22] Language: en
+[2024-09-24 13:47:51] Received raw data: {"action":"getStory","storyType":"tell an educative story in spanish language","language":"zh"}
+[2024-09-24 13:47:51] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => tell an educative story in spanish language
+    [language] => zh
+)
+
+[2024-09-24 13:47:51] Action: getStory
+[2024-09-24 13:47:51] Language: zh
+[2024-10-07 23:20:34] Received raw data: {"action":"getStory","storyType":"horror","language":"en"}
+[2024-10-07 23:20:34] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => horror
+    [language] => en
+)
+
+[2024-10-07 23:20:34] Action: getStory
+[2024-10-07 23:20:34] Language: en
+[2024-10-07 23:24:04] Received raw data: {"action":"getStory","storyType":"horror","language":"en"}
+[2024-10-07 23:24:04] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => horror
+    [language] => en
+)
+
+[2024-10-07 23:24:04] Action: getStory
+[2024-10-07 23:24:04] Language: en
+[2025-03-24 22:46:23] Received raw data: {"action":"getStory","storyType":"I want Jesus story","language":"en"}
+[2025-03-24 22:46:23] Decoded data: Array
+(
+    [action] => getStory
+    [storyType] => I want Jesus story
+    [language] => en
+)
+
+[2025-03-24 22:46:23] Action: getStory
+[2025-03-24 22:46:23] Language: en
